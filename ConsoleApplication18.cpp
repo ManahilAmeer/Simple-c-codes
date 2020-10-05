@@ -8,7 +8,7 @@ int main()
 	int list[20];
 	int i = 0;
 	if(in.fail())
-	cout<<"Your file is not working"<<endl;
+	cout<<"Your file is not working!!"<<endl;
 	else{
 	while (in>>list[i])
 	{
