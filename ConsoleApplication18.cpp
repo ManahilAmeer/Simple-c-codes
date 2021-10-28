@@ -1,23 +1,14 @@
-#include <iostream>
-#include<fstream>
-using namespace std;
+#include<stdio.h>
+
 int main()
 {
-	ifstream in;
-	in.open("input.txt");
-	int list[20];
-	int i = 0;
-	if(in.fail())
-	cout<<"Your file is not working!!"<<endl;
-	else{
-	while (in>>list[i])
-	{
-		i++;
-	}
-	long long ans=0;
-	for (int j = 0; j < i; j++) {
-		ans = list[j] + (ans * 10);
-	}
-	cout << ans << endl;
-}
+    printf("\n\n\t\tStudytonight - Best place to learn\n\n\n");
+
+    char c;
+    printf("Enter a character : ");
+    scanf("%c" , &c);
+    printf("\n\nASCII value of %c = %d",c,c);
+
+    printf("\n\n\t\t\tCoding is Fun !\n\n\n");
+    return 0;
 }
