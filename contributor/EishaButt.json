@@ -3,4 +3,8 @@
     "favourite-emoji": "🙂",
     "favourite-music": "https://soundcloud.com/nocopyrightsounds/sub-urban-cradles-ncs-release",
     "favourite-color": "#24292E"
+    //build a jason google chart
+    <script
+    src="https://www.gstatic.com/charts/loader.js">
+    </script>
   }
